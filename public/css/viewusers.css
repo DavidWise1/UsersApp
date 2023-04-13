@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto; /* center the table horizontally */
+}
+
+h1 {
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #444;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    display: block; /* make the button a block element */
+    margin: 20px auto 0; /* center the button horizontally and add some top margin */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #3e8e41;
+    }

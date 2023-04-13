@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Users App</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+    
+    <h1>Add new User</h1>
+
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+        <div id="notification"></div>
+        <button type="button" onclick="addUser()">ADD NEW USER</button>
+        <button type="button" onclick="clearInputs()">Clear</button>
+        <button type="button" onclick="displayUsers()">Display Users</button>
+    </form>
+
+
+</body>
+</html>
